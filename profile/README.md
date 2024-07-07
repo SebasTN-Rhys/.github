@@ -44,4 +44,3 @@ Got ideas or want to show us your projects? Here’s how you can share your awes
 ## 🌟 What’s Next?
 
 Stay tuned for more updates, projects, and fun learning materials!
-
