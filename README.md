@@ -10,7 +10,7 @@ Welcome to the `.github` repository for SebasTN-Rhys! This repository is used to
 
 ## 📜 Community Guidelines
 
-We aim to create an inclusive and supportive community. Please take a moment to review our [Code of Conduct](Community_Guidelines/code_of_conduct.md) and [Contribution Guidelines](Community_Guidelines/contribution.md) before participating.
+We aim to create an inclusive and supportive community. Please take a moment to review our [Code of Conduct](https://github.com/SebasTN-Rhys/.github/blob/main/Community_Guidelines/code_of_conduct.md) and [Contribution Guidelines](https://github.com/SebasTN-Rhys/.github/blob/main/Community_Guidelines/contribution.md) before participating.
 
 ## 🌐 About SebasTN
 
