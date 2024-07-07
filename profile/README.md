@@ -8,11 +8,11 @@ Here are some of the exciting projects we're working on. You can click on the li
 
 ### **Project 1: My First Drawings**
 - **Description**: This is where I keep all my awesome drawings and digital artwork. 
-- [View My Drawings](Gallery/README.md)
+- [View My Drawings](https://github.com/SebasTN-Rhys/.github/blob/main/My_First_Drawings/README.md)
 
 ### **Project 2: Learning Code**
 - **Description**: Follow my journey as I learn how to code. I'll be posting updates and cool mini-projects here!
-- [See My Coding Projects](Learning_Code/README.md)
+- [See My Coding Projects](https://github.com/SebasTN-Rhys/.github/blob/main/Learning_Code/README.md)
 
 ## 🎓 Learning Corner
 
@@ -20,11 +20,11 @@ Want to learn how to code and make awesome projects like these? Here’s where I
 
 ### **Beginner's Guide to GitHub**
 - Learn how to create repositories, start projects, and more!
-- [Start Learning GitHub](Guides/Beginners_Guide_to_GitHub.md)
+- [Start Learning GitHub](https://github.com/SebasTN-Rhys/.github/blob/main/Guides/Beginners_Guide_to_GitHub.md)
 
 ### **Art & Coding Challenges**
 - Try out these fun challenges to improve your coding and art skills at the same time!
-- [Try Challenges](Guides/Art_and_Coding_Challenges.md)
+- [Try Challenges](https://github.com/SebasTN-Rhys/.github/blob/main/Guides/Art_and_Coding_Challenges.md)
 
 ## 🖼️ Gallery
 
@@ -32,7 +32,7 @@ Check out our gallery where I post all the cool images and art from our projects
 
 ### **How to Organize Your Projects**
 - Learn how to neatly organize your projects into folders so they are easy to find and look great!
-- [Learn to Organize](Guides/Beginners_Guide_to_GitHub.md)
+- [Learn to Organize](https://github.com/SebasTN-Rhys/.github/blob/main/Guides/Beginners_Guide_to_GitHub.md)
 
 ## 📬 Get Involved
 
