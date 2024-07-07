@@ -1,19 +1,21 @@
-MIT License
+# SebasTN Inc. License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved by SebasTN Inc., GitHat Inc., Rensley Ramos and Sebastian Rhys Ramos
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Terms and Conditions
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Prohibited Actions**: 
+   - Reproduction, distribution, or modification of this software and its associated documentation without explicit written permission from SebasTN Inc. is strictly prohibited.
+   - Unauthorized commercial use, sublicensing, or reselling of this software is not allowed.
+
+2. **Permitted Use**:
+   - This software is intended for use solely by SebasTN Inc., GitHat Inc., Rensley Ramos, and Sebastian RR. Any use outside these entities requires written authorization and may be subject to fees.
+
+3. **Future Rights**:
+   - Sebastian RR is designated as the next in line for ownership and management rights of this software.
+
+4. **Liability**:
+   - SebasTN Inc. is not liable for any damages, claims, or other liabilities arising from the use or misuse of this software.
+
+For permissions, contact: [ranly196@gmail.com]
+

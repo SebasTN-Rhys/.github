@@ -31,6 +31,7 @@ Welcome to My First Drawings at SebasTN-Rhys! This section showcases Sebastian's
 Have your own drawings you want to share? We'd love to see them!
 
 ### **Submit Your Drawings**
-- **Email Us**: Send your drawings to [your-email@example.com](mailto:your-email@example.com).
+- **Email Us**: [Send Us Your drawings!](mailto:ranly196@gmail.com)
 
 Thank you for visiting My First Drawings. Stay tuned for more amazing artworks!
+
