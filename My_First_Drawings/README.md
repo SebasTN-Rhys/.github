@@ -10,7 +10,7 @@ Welcome to My First Drawings at SebasTN-Rhys! This section showcases Sebastian's
 
 ### **Drawing 2: Space Adventure**
 - **Description**: An adventurous drawing depicting a spaceship exploring the stars.
-- ![Space Adventure](link-to-image)
+- ![Space Adventure](https://github.com/SebasTN-Rhys/.github/blob/main/Assets/A24F59B1-0D73-488A-A019-076B80015E64.jpeg)
 
 ### **Drawing 3: The Forest**
 - **Description**: A serene drawing of a dense forest with tall trees and wildlife.
