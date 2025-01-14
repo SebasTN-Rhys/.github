@@ -35,5 +35,5 @@ If you have any questions or need assistance, feel free to [email us](mailto:ran
 
 Stay tuned for updates and new projects by following our organization on GitHub!
 
-[![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-blue)]([https://sebastn.github.io/privacy-policy.html](https://github.com/SebasTN-Rhys/.github/blob/main/privacy-policy.html))
+[![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-blue)](https://github.com/SebasTN-Rhys/.github/blob/main/privacy-policy.md)
 
