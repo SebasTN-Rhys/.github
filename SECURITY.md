@@ -1,35 +1,31 @@
 # Security Policy
 
-## Supported Versions
+## Reporting a vulnerability
 
-We are committed to ensuring the security of our projects. Below is a list of the versions of our projects that are currently being supported with security updates.
+Email **security@sebastn.com** with:
+- A description of the vulnerability + affected component
+- Reproduction steps or proof-of-concept
+- Your name + handle if you want public credit
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.2.x   | :white_check_mark: |
-| 1.1.x   | :x:                |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+We aim to:
+- Acknowledge within 48 hours
+- Assess + scope within 5 business days
+- Patch + disclose responsibly (90-day default window, faster for critical)
 
-## Reporting a Vulnerability
+## Scope
 
-If you discover a security vulnerability within our projects, we appreciate your efforts to disclose it responsibly. Please follow the steps below to report a vulnerability:
+In scope: the GitHat-platform apps under this organization.
+Out of scope: third-party services (Stripe, AWS, SES), social-engineering, physical, denial-of-service.
 
-1. **Email Us**: Send an email to [security@sebasTN.com](mailto:security@sebasTN.com) with details of the vulnerability. Include any relevant information such as the steps to reproduce the issue, potential impact, and any suggested solutions.
+## Bug bounty
 
-2. **Acknowledgement**: You will receive an acknowledgment of your report within 48 hours.
+We do not currently run a paid bounty program but happily credit reporters in patch notes.
 
-3. **Investigation**: Our security team will investigate the reported vulnerability. During this period, we may reach out to you for additional information or clarification.
+## Cryptography + identity
 
-4. **Updates**: You can expect updates on the status of the vulnerability within 7 days of the initial report. We will provide information on the progress and any planned fixes or mitigations.
+GitHat tokens are RS256-signed via AWS KMS. Public verification material is at `/.well-known/jwks.json` on the issuer. CAA records lock cert issuance to AWS Certificate Manager only.
 
-5. **Resolution**: Once the investigation is complete, we will inform you of the outcome. If the vulnerability is accepted, we will work on releasing a fix and will keep you updated on the timeline for the release. If the vulnerability is declined, we will provide a detailed explanation.
+## Preferred languages
 
-6. **Credit**: We value the contributions of the security community and will acknowledge your efforts publicly if desired, once the vulnerability is resolved.
-
-We appreciate your help in keeping SebasTN-Rhys projects secure!
-
-For any other questions regarding our security policies, please contact us at [info@sebasTN.com](mailto:info@sebasTN.com).
-
-Thank you for your cooperation and understanding.
+English.
 
