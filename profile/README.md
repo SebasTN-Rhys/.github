@@ -1,35 +1,48 @@
-# SebasTN Inc.
+<div align="center">
 
-Welcome to **SebasTN Inc.**, a cutting-edge AI company under the **GitHat Inc.** umbrella. At SebasTN, we are at the forefront of artificial intelligence, leveraging state-of-the-art technology to deliver advanced AI solutions. Our mission is to drive innovation through AI, providing tools and platforms that transform industries and empower businesses.
+# Sebastn
 
-## About Us
+**Stripe Connect, batteries included.**
 
-**SebasTN Inc.** is dedicated to developing sophisticated AI systems and applications. As a key player within the GitHat Inc. ecosystem, we focus on harnessing the power of AI to solve complex problems, enhance decision-making, and create intelligent solutions for various sectors.
+Payments infrastructure for GitHat-platform apps — Stripe Connect Express, next-day payouts, marketplace splits, Stripe Tax.
 
-### Our Areas of Expertise:
-- **Machine Learning:** Advanced algorithms and models to enable predictive analytics and intelligent automation.
-- **Deep Learning:** Cutting-edge neural network architectures for complex pattern recognition and data analysis.
-- **Natural Language Processing (NLP):** Innovative tools and models for understanding and generating human language.
-- **AI Integration:** Seamless integration of AI technologies into existing systems and workflows to enhance functionality and performance.
+[**🌐 sebastn.com**](https://sebastn.com)&nbsp;&nbsp;·&nbsp;&nbsp;[**🔌 api.sebastn.com**](https://api.sebastn.com)&nbsp;&nbsp;·&nbsp;&nbsp;[**🏠 GitHat platform**](https://githat.io)
 
-## Our Projects
-
-Explore our key projects that showcase our commitment to AI excellence:
-
-- **Project Alpha:** An AI-driven solution for predictive analytics in financial markets. This project utilizes deep learning techniques to forecast market trends and make informed investment decisions.
-- **Project Beta:** A natural language processing tool designed to improve customer interactions through intelligent chatbots and automated responses.
-- **Project Gamma:** An advanced machine learning platform that provides actionable insights from complex data sets, enabling businesses to make data-driven decisions.
-
-## Get In Touch
-
-For more information about our AI solutions, partnerships, or collaboration opportunities, please contact us at [contact@sebastn.ai](mailto:contact@sebastn.ai).
+</div>
 
 ---
 
-**GitHat Inc.** is the umbrella company overseeing various innovative ventures, including:
+## What Sebastn is
 
-- **NFTeria Inc.:** Our blockchain expertise hub, focusing on developing and managing NFTs and blockchain-based solutions.
-- **Colmado Inc.:** A branded marketplace offering a wide range of products and services.
+Sebastn is the payments-as-a-service layer for the [GitHat](https://githat.io) platform. We own the Stripe Connect platform `acct_1QUAtoP61QTCwfMg` and onboard apps as connected accounts — so they get Stripe Connect Express with one integration, every payment method.
 
-Explore our ecosystem to see how we are reshaping the future through technology.
+- **Connect Express** onboarding in < 5 minutes
+- **Marketplace splits** with application_fee_amount
+- **Next-day payouts** on the platform's schedule
+- **Stripe Tax** automatic tax calculation in 40+ jurisdictions
+- **Identity verification** via Stripe Identity
+- **Refunds + disputes** dashboard
 
+## Who uses it
+
+- **[ClickReserv](https://github.com/ClickReserv)** — booking platform, businesses are Stripe connected accounts under Sebastn
+- **[Quantl](https://github.com/QuantLinc)** — subscriptions for paid tiers
+- Any [GitHat-platform](https://github.com/GitHat-IO) app that needs payments without re-implementing Stripe Connect
+
+## Authentication
+
+Sebastn auth is delegated to GitHat (`api.githat.io`). All operator login, MFA, OAuth, passkeys, and audit log live there — Sebastn never holds its own auth surface.
+
+## Security
+
+- ✅ Verified domain (`sebastn.com`, `www.sebastn.com`)
+- ✅ AWS-native edge: Route 53 → CloudFront (ACM cert) → EC2 (Caddy → Node)
+- ✅ Same-origin `/api/githat` proxy for httpOnly cookie auth (no localStorage tokens)
+- ✅ PCI-compliant payment flows via Stripe Elements
+- ✅ Webhook signature verification, idempotency keys, advisory locks
+- ✅ CAA records, signed commits, secret scanning
+
+## Contact
+
+Security: [security@sebastn.com](mailto:security@sebastn.com)
+Support: [hello@sebastn.com](mailto:hello@sebastn.com)
