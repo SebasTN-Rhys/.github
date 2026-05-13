@@ -1,0 +1,15 @@
+name: Security report (LOW severity only)
+description: For HIGH/CRITICAL — email security@<domain> per SECURITY.md, do NOT open a public issue.
+labels: [security, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Stop.** If this is HIGH or CRITICAL severity, **do not file a public issue.**
+        Email security@sebastn.com / security@sebastn.com / security@reserv.click / etc.
+        See [SECURITY.md](./SECURITY.md) for the disclosure policy.
+  - type: textarea
+    attributes:
+      label: Description
+      description: Low-severity issue — informational, hardening suggestion, posture question.
+    validations: { required: true }

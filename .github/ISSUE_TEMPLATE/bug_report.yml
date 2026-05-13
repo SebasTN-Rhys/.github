@@ -1,0 +1,31 @@
+name: Bug report
+description: Something is broken. Help us reproduce + fix.
+labels: [bug, triage]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Plain-English description. What did you do, what did you expect, what actually happened?
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: How to reproduce
+      description: |
+        Step-by-step. Include exact URLs / API calls / fixture data.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error ...
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        - OS / browser / device
+        - App version (commit SHA from /api/healthz if available)
+        - Logged-in or anonymous user?
+        - Org / business / tenant context if applicable
+  - type: textarea
+    attributes:
+      label: Logs / screenshots
+      description: Attach anything visible. Don't paste live credentials.
