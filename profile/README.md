@@ -1,48 +1,29 @@
 <div align="center">
 
-# Sebastn
+# SebasTN Inc.
 
-**Stripe Connect, batteries included.**
+**Payments, booking and AI for businesses. New York.**
 
-Payments infrastructure for GitHat-platform apps — Stripe Connect Express, next-day payouts, marketplace splits, Stripe Tax.
-
-[**🌐 sebastn.com**](https://sebastn.com)&nbsp;&nbsp;·&nbsp;&nbsp;[**🔌 api.sebastn.com**](https://api.sebastn.com)&nbsp;&nbsp;·&nbsp;&nbsp;[**🏠 GitHat platform**](https://githat.io)
+[sebastn.com](https://sebastn.com) · [ClickReserv](https://clickreserv.com) · [Access0x1](https://access0x1.com) · [Crunchbase](https://www.crunchbase.com/organization/sebastn)
 
 </div>
 
 ---
 
-## What Sebastn is
+SebasTN Inc. is a privately held software company in New York, founded and led by **[Rensley R.](https://github.com/doble196)**, a full-stack engineer across AI, data science and blockchain.
 
-Sebastn is the payments-as-a-service layer for the [GitHat](https://githat.io) platform. We own the Stripe Connect platform `acct_1QUAtoP61QTCwfMg` and onboard apps as connected accounts — so they get Stripe Connect Express with one integration, every payment method.
+## What we run
 
-- **Connect Express** onboarding in < 5 minutes
-- **Marketplace splits** with application_fee_amount
-- **Next-day payouts** on the platform's schedule
-- **Stripe Tax** automatic tax calculation in 40+ jurisdictions
-- **Identity verification** via Stripe Identity
-- **Refunds + disputes** dashboard
+| | |
+|---|---|
+| **[ClickReserv](https://clickreserv.com)** | Booking, payments and point of sale for 200+ business types, in 24 languages. |
+| **[Colmado](https://colmado.click)** | Online orders and payments for bodegas and corner stores. |
+| **[Access0x1](https://access0x1.com)** | A payments network that never holds the money, live on Ethereum, Base, Unichain and Arc, with its own Uniswap v4 hooks. |
+| **[reserv.click](https://reserv.click)** | Short links and QR codes. |
+| **[HemiAI](https://hemiai.click)** | Brand events and giveaways. |
 
-## Who uses it
-
-- **[ClickReserv](https://github.com/ClickReserv)** — booking platform, businesses are Stripe connected accounts under Sebastn
-- **[Quantl](https://github.com/QuantLinc)** — subscriptions for paid tiers
-- Any [GitHat-platform](https://github.com/GitHat-IO) app that needs payments without re-implementing Stripe Connect
-
-## Authentication
-
-Sebastn auth is delegated to GitHat (`api.githat.io`). All operator login, MFA, OAuth, passkeys, and audit log live there — Sebastn never holds its own auth surface.
-
-## Security
-
-- ✅ Verified domain (`sebastn.com`, `www.sebastn.com`)
-- ✅ AWS-native edge: Route 53 → CloudFront (ACM cert) → EC2 (Caddy → Node)
-- ✅ Same-origin `/api/githat` proxy for httpOnly cookie auth (no localStorage tokens)
-- ✅ PCI-compliant payment flows via Stripe Elements
-- ✅ Webhook signature verification, idempotency keys, advisory locks
-- ✅ CAA records, signed commits, secret scanning
+Card payments run through Stripe; digital-dollar payments run through Access0x1 and reach the business in the same transaction.
 
 ## Contact
 
-Security: [security@sebastn.com](mailto:security@sebastn.com)
-Support: [hello@sebastn.com](mailto:hello@sebastn.com)
+Support: [hello@sebastn.com](mailto:hello@sebastn.com) · Security: [security@sebastn.com](mailto:security@sebastn.com)
