@@ -12,6 +12,8 @@
 
 SebasTN Inc. is a privately held software company in New York, founded and led by **[Rensley R.](https://github.com/doble196)**, a full-stack engineer across AI, data science and blockchain.
 
+The company is named for Sebastian, the founder's son and our **Chief of All Chiefs**.
+
 ## What we run
 
 | | |
