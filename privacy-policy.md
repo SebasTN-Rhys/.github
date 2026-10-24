@@ -37,4 +37,4 @@ We may update this privacy policy from time to time. Any changes will be posted 
 
 ## Contact Us
 
-If you have any questions or concerns about this privacy policy, please contact the CEO Rensley at [rensley@sebastn.com](mailto:rensley@sebastn.com).
+If you have any questions or concerns about this privacy policy, please contact [hello@sebastn.com](mailto:hello@sebastn.com).

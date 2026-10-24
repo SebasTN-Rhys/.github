@@ -1,39 +1,7 @@
-# SebasTN-Rhys's .github Repository
+# SebasTN Inc.
 
-Welcome to the `.github` repository for SebasTN-Rhys! This repository is used to manage community health files, issue templates, workflows, and more for the SebasTN organization.
+SebasTN Inc. is a privately held software company in New York, founded and led by [Rensley R.](https://github.com/doble196). It runs [ClickReserv](https://clickreserv.com), [Colmado](https://colmado.click), [Access0x1](https://access0x1.com), [reserv.click](https://reserv.click) and [HemiAI](https://hemiai.click).
 
-## 📁 Repository Structure
+This repository holds the organization's community files: code of conduct, contributing guide, security policy and support.
 
-- **`/profile/README.md`**: The main profile page for the SebasTN organization. This README provides an overview of our projects, learning resources, and ways to get involved.
-- **`/workflows/`**: GitHub Actions workflows that automate various tasks and CI/CD pipelines for our projects.
-- **`/ISSUE_TEMPLATE.md`**: Templates to guide contributors in reporting issues or submitting feature requests.
-
-## 📜 Community Guidelines
-
-We aim to create an inclusive and supportive community. Please take a moment to review our [Code of Conduct](https://github.com/SebasTN-Rhys/.github/blob/main/Community_Guidelines/code_of_conduct.md) and [Contribution Guidelines](https://github.com/SebasTN-Rhys/.github/blob/main/Community_Guidelines/contribution.md) before participating.
-
-## 🌐 About SebasTN
-
-SebasTN is a technology hub led by Sebastian RR. We are passionate about blending creativity with code to develop innovative software solutions and educational resources.
-
-## 🛠️ How to Contribute
-
-We welcome contributions from everyone. Whether you're fixing a bug, adding a new feature, or improving documentation, your help is appreciated!
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add your message here'`).
-5. Push to the branch (`git push origin feature/your-feature-name`).
-6. Open a pull request.
-
-## 📬 Contact
-
-If you have any questions or need assistance, feel free to [email us](mailto:ranly196@gmail.com).
-
-## ⭐ Stay Updated
-
-Stay tuned for updates and new projects by following our organization on GitHub!
-
-[![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-blue)](https://github.com/SebasTN-Rhys/.github/blob/main/privacy-policy.md)
-
+Website: [sebastn.com](https://sebastn.com)
